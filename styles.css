@@ -385,10 +385,23 @@ footer {
     flex-wrap: wrap;
   }
 
+  .projects {
+    padding: 2.5% 25px;
+  }
+
   .projects__div {
-    grid-template-columns: repeat(2, calc(25vw * 0.92));
-    grid-template-rows: repeat(3, 25vw);
-    height: calc(75vw + 2 * clamp(25px, 5vh, 100px));
+    grid-template-columns: repeat(2, calc(35vw * 0.92));
+    grid-template-rows: repeat(3, 35vw);
+    height: calc(105vw + 2 * clamp(25px, 5vh, 100px));
+  }
+
+  .projects__h2 {
+    font-size: 0.85rem;
+  }
+
+  .projects__a:any-link,
+  .resume__a:any-link {
+    font-size: 0.75rem;
   }
 
   .resume {
